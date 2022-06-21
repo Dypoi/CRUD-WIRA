@@ -1,0 +1,103 @@
+body{
+    background: #f5f5f5;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.Container{
+    
+    height: 20vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin: 0 ;
+}
+.wrapper{
+    margin: 0 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    background-color: #444;
+}
+.brand{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+}
+.firstname{
+    color: #f5f5f5;
+    font-weight: 700;
+}
+.lastname{
+    color: aqua;
+    font-weight: 400;
+}
+
+.Navigation{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.Navigation>li{
+    list-style: none;
+    padding: 15px;
+}
+.Navigation>li>a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.atambah{
+    text-decoration: none;
+    font-weight: 700;
+    color: #f5f5f5;
+    padding: 10px;
+    background: lightskyblue;
+    
+}
+.wrapper{
+    margin: 0 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 50px;
+    display: flex;
+    max-width: 1200px;
+    height: 80px;
+    background-color: #444;
+    
+}
+.brand{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+}
+.aedit{
+    font-weight: 800;
+    background-color: #0dfce8;
+    padding: 15px;
+    display: block;
+    float: left;
+}
+.alogout{
+    font-weight: 800;
+    background-color: crimson;
+    padding: 15px;
+    display: block;
+    float: right;
+}
+.ahapus{
+    text-decoration: none;
+    font-weight: 700;
+    background: crimson;
+    color: #f5f5f5;
+    padding: 10px;
+    
+}
